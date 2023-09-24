@@ -2,6 +2,7 @@
 CP1404/CP5632 - Practical
 Fixed program to determine score status
 """
+import random
 
 
 def main():
@@ -9,6 +10,11 @@ def main():
     score = float(input("Enter score: "))
 
     print(determine_status(score))
+
+    # Random number
+    rand_score = random.randint(0, 100)
+    print(f'Random score is {rand_score}')
+    print(determine_status(rand_score))
 
 
 def determine_status(score):
@@ -27,7 +33,3 @@ def determine_status(score):
 
 
 main()
-
-
-
-
