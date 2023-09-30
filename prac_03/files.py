@@ -11,3 +11,13 @@ with open(name + '.txt', 'w') as out_file:
 with open(name + '.txt', 'r') as in_file:
     name = in_file.read().strip()
     print(f'Your name is {name}')
+
+# Question 3
+with open('numbers.txt', 'r') as in_file:
+    number1 = int(in_file.readline())
+    number2 = int(in_file.readline())
+print(number1 + number2)
+
+
+
+
