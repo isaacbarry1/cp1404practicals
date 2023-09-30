@@ -13,4 +13,8 @@ It prints a random number between 2.5 and 5.5
 
 """
 
+import random
+
+print(random.randint(1, 100))
+
 
