@@ -18,6 +18,11 @@ with open('numbers.txt', 'r') as in_file:
     number2 = int(in_file.readline())
 print(number1 + number2)
 
-
+# Question 3 extension
+total = 0
+with open('numbers.txt', 'r') as in_file:
+    for line in in_file:
+        total += int(line)
+print(total)
 
 
