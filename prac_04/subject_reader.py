@@ -29,6 +29,11 @@ def get_subjects():
     input_file.close()
     return subject
 
+def display_subjects(subjects):
+    """Display subject data"""
+
+    for subject in subjects:
+        print(f"{subject[0]} is taught by {subject[1]:12} and has {subject[2]:3} students")
 
 
 
